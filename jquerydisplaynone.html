@@ -1,0 +1,16 @@
+<body>
+    <ul></ul>
+    
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+  
+      const osList = ['windows','Mac OS','Linux','iOS','Android'];
+          
+      for(let i=0; i<osList.length; i++) {
+        const li = $('<li>',{ text: osList[i] });
+        
+        $('ul').append(li);
+      }
+  
+    </script>
+  </body>

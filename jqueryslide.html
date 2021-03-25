@@ -1,0 +1,45 @@
+<idoctype html>
+    <html>
+        <head>
+            <meta charset="utf-8"/>
+            <title>スライド</title>
+            <style>
+                body{
+                    text-align: center;
+
+                }
+                #slide img{
+                    margin:auto;
+                    display: none;
+                }
+
+            </style>
+        </head>
+        <body>
+         <div id="slide">
+
+
+            <img src="sample1.jpg">
+            <img src="sample2.jpg">
+            <img src="sample3.jpg">
+         </div>
+            <button id ="rev">前へ</button>
+            <button id ="next">次へ</button>
+
+            <script>
+                const images = $('#slide img');
+                let counter = 0;
+                let index = 0;
+
+                images.eq(index).show();
+
+                $('#next').click(() =>{
+                })
+
+                $('#rev').click(() => {
+
+                })
+            </script>
+        </body>
+    </html>
+</idoctype>

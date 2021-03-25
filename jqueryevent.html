@@ -1,0 +1,20 @@
+<body>
+    <div style="width:100px;
+                height:100px;
+                background-color:#555;"></div>
+
+<script src="jquery-3.6.0.min.js"></script>
+<script>
+$('div').on({
+    'click':() =>{
+        $('div').css('background-color','red');
+    },
+    'dblclick':() => {
+        $('div').css('background-color','black')
+    },
+    'mouseenter':() => {
+        $('div').css('background-color','blue');
+    },
+})
+</script>
+</body>

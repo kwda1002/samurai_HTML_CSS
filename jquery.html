@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>jQueryの練習</title>
+    <style>
+      /*   CSSを記述する場所   */
+    </style>
+  </head>
+  <body>
+    <ul>
+        <li class="list-test">項目1</li>
+        <li class="sample-list">項目２</li>
+        <li class="sample-text">項目３</li>
+    </ul>
+    
+    <script src="jquery-3.6.0.min.js"></script>
+   <script>
+       const text =$('li[class^="sample]').text();
+
+       console.log(text);
+</script>
+  </body>
+</html>
